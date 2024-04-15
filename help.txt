@@ -1,0 +1,36 @@
+=======================================================================
+                           Help for FindShell
+=======================================================================
+
+Description:
+-------------
+FindShell is a shell for the find utility with the ability to edit and store search history.
+
+Usage:
+---------
+PATH: The path to the directory where the search will be performed.
+
+NAME: The name of the file or directory to be searched for.
+
+TYPE: The type of file to be found:
+    f: Regular file
+    d: Directory
+    l: Symbolic link
+    p: Named pipe (FIFO)
+    c: Character device file
+    b: Block device file
+    s: Socket
+
+SIZE: the size of the file you are looking for, specified in bytes or using human-readable suffixes:
+    c: bytes (default)
+    w: 2-byte words
+    b: 512-byte blocks
+    k: Kilobytes (1024 bytes)
+    M: Megabytes (1024 kilobytes)
+    G: Gigabyte (1024 megabytes)
+
+Additional Commands:
+----------------------
+F1         Open Search History
+F2         Open Help
+F3         Exit
