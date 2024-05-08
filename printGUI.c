@@ -12,10 +12,8 @@ WINDOW* nameWin = NULL;
 WINDOW* typeWin = NULL;
 WINDOW* sizeWin = NULL;
 
-
-
 int WIN_SIZE_X,WIN_SIZE_Y;
-static const int sizePathBuffer = 120, sizeNameBuffer = 120, sizeTypeBuffer = 10, sizeSizeBuffer = 10;
+static const int sizePathBuffer = 120, sizeNameBuffer = 120, sizeTypeBuffer = 20, sizeSizeBuffer = 10;
 
 
 void printWelcomeWin(){

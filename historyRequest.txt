@@ -1,8 +1,11 @@
-find /home -name BSUIR -type d -size +1
-find /home -name BSUIR -type d -size +1M
-find /home -name BSUIR -type d -size +1MB
-find /home -name BSUIR -type d -size +10MB
-find /home -name BSUIR -type d
+find /home/bobr
+find /home/bobr
+find /home -name OsispLabs -type f -size -10M
+find /home/bobr -name findShell
+find /home -name temp
+find /home/bobr -size -10G
+find /home/bobr -size 10G
+find /home/bobr -size +10M
+find /home/bobr -type l d
 find /home -name BSUIR
 find /home
-find /home/bobr

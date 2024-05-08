@@ -1,27 +1,3 @@
-# # Компилятор
-# CC=gcc
-# # Флаги компиляции
-# # CFLAGS=-Wall -Wextra -Werror -pedantic -std=c99
-# # Библиотеки
-# LIBS=-lncurses
-
-# # Исходные файлы
-# SOURCES=main.c printGUI.c
-# # Имя исполняемого файла
-# EXECUTABLE=myprogram
-
-# all: $(EXECUTABLE)
-
-# $(EXECUTABLE): $(SOURCES)
-# 	$(CC) $(CFLAGS) $(LIBS) $(SOURCES) -o $@
-
-# run: $(EXECUTABLE)
-# 	./$(EXECUTABLE)
-
-# clean:
-# 	rm -f $(EXECUTABLE)
-
-
 # Компилятор
 CC=gcc
 # Флаги компиляции
@@ -30,9 +6,9 @@ CFLAGS=-Wall -Wextra -Werror -pedantic -std=c99
 LIBS=-lncurses
 
 # Исходные файлы
-SOURCES=main.c printGUI.c functions.c
+SOURCES=main.c printGUI.c createFindCommand.c workWithHistory.c
 # Заголовочные файлы
-HEADERS=header.h printGUI.h functions.h
+HEADERS=header.h printGUI.h createFindCommand.h workWithHistory.h
 
 # Имя исполняемого файла
 EXECUTABLE=myprogram

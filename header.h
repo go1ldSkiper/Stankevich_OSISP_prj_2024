@@ -8,7 +8,8 @@
 #include <string.h>
 #include <unctrl.h>
 #include "printGUI.h"
-#include "functions.h"
+#include "createFindCommand.h"
+#include "workWithHistory.h"
 
 #define ENTER_KEY 10
 extern const char RESULT_FIND_NAME_FILE[];
